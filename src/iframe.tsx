@@ -20,7 +20,8 @@ const Iframe: ComponentType<IIframe>
 		style: {
 			position: position || null,
 			display: display || "block",
-			overflow: overflow || null
+			overflow: overflow || null,
+			...styles
 		},
 		scrolling: scrolling || null,
 		allowpaymentrequest: allowpaymentrequest || null,
